@@ -21,7 +21,6 @@
 - Make user aware of its spending habits!
 
 - You can view the backend [here](https://github.com/GreyManuel/cashflow-backend)
-```
 
 ## Why our application will give accurate results?
 
