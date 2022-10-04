@@ -8,7 +8,7 @@
 <br />
 
 <p align="justify">
-    A Progressive web-application (PWA) that helps you track your expenses in an efficient manner using OCR and make you aware of your spending habits using various c>
+    A Progressive web-application (PWA) that helps you track your expenses in an efficient manner using OCR and make you aware of your spending habits using various charts along with additional features of setting goals and reminders
 </p>
 
 ## Features 
@@ -19,15 +19,15 @@
 - Analysis of prev transactions through heatmaps, pie-chart, etc
 - Showing user which category has the most expense via stacked bar chart
 - Make user aware of its spending habits!
- 
 
+- You can view the backend [here](https://github.com/GreyManuel/cashflow-backend)
 ```
 
-## Why this application will give accurate results?
+## Why our application will give accurate results?
 
 ![](public/better-model.png)
 
-- This model utilizes PyTesseract to find the words such as amount/total/grand total/cash usually found on Indian bills/reciept and creating a bounding box around thes>
+- Our model utilizes PyTesseract to find the words such as amount/total/grand total/cash usually found on Kenyan bills/reciept and creating a bounding box around these using openCV
 - Since there was low training data available on Kenyan bills coupled with time constraints, we had to rely on third party nanonets API for backup
 - We are cross-examining both results and finding the better of the two
 
@@ -41,7 +41,7 @@
 
 - To build something that is relevant to current needs
     - [80% Kenyans Say Covid-19 A Wakeup Call To Fix Their Financial Health]
-    - The pandemic broke the age old mirage of job-security and made people swallow the hard pill that concepts like personal finance, budgetting, tracking expenditur
+    - The pandemic broke the age old mirage of job-security and made people swallow the hard pill that concepts like personal finance, budgetting, tracking expenditure are important
 -  To build our first PWA
 
 ## API
@@ -50,10 +50,10 @@
 
 ## Local setup
  
- **1. Clone [server repo](https://github.com/GreyManuel/cashflow-backend) & follow the steps mention [here](https://github.com/GreyManuel/cashflow-backend/blo>
+ **1. Clone [server repo](https://github.com/GreyManuel/cashflow-backend) & follow the steps mention [here](https://github.com/GreyManuel/cashflow-backend/blob/master/README.md) to run server locally:-**
  
  **2. Clone this repo by running the following command :-**
-```
+ ```
   git clone https://github.com/GreyManuel/Cash-Flow.git
   cd cashflow-frontend
  ```
@@ -74,12 +74,10 @@
  **6.** **🎉  Open your browser and go to  `https://localhost:3000`**
 
 
-## Authors
+## Author
 
-- **Grey Manuel**
-    - [LinkedIn](https://ke.linkedin.com/in/manuel-grey-aa4010182) | [Gmail](mailto:greytechsystems@gmail.com) 
-    
-    ## References
+- **Manuel Grey**
+    - [LinkedIn](http://www.linkedin.com/in/manuel-grey-aa4010182) | [Gmail](mailto:greytechsystems@gmail.com) 
+## References
 
-[react-calendar-heatmap](https://github.com/kevinsqi/react-calendar-heatmap), [react-chartjs-2](https://react-chartjs-2.netlify.app/), [react-gradient-progress](https>
-
+[react-calendar-heatmap](https://github.com/kevinsqi/react-calendar-heatmap), [react-chartjs-2](https://react-chartjs-2.netlify.app/), [react-gradient-progress](https://github.com/prasannamestha/react-gradient-progress)
