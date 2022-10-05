@@ -19,7 +19,7 @@ const RecentTransactions = () => {
         <thead>
           <tr>
             <th>Title</th>
-            <th>Amount in Rs</th>
+            <th>Amount in Kshs</th>
             <th>Date</th>
             <th>Category</th>
           </tr>
